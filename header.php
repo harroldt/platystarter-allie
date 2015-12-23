@@ -49,10 +49,35 @@
 
 		<nav id="site-navigation" class="main-navigation navbar navbar-default" role="navigation">
 			<div class="container">
-				<div class="row">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+					<a class="navbar-brand" href="/">Allie's Thirst</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="menu-item">
+							<a href="/">Home</a>
+						</li>
+						<li class="menu-item">
+							<a href="/services/">Services</a>
+						</li>
+						<li class="menu-item">
+							<a href="/contact-us/">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+
 		<!--	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'httpwww-platypuslocal-com' ); ?></button> -->
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-			    </div>
+		<!--	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?> -->
+
 			</div>
 		</nav><!-- #site-navigation -->
 

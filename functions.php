@@ -117,7 +117,9 @@ function platypuslocal_scripts() {
 
 	wp_enqueue_style( 'platypuslocal-style', trailingslashit( get_template_directory_uri() ) . 'public/assets/styles/main.css', array(), false );
 
-	wp_enqueue_script( 'platypuslocal-script', trailingslashit( get_template_directory_uri() ) . 'public/assets/js/main.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'platypuslocal-script', trailingslashit( get_template_directory_uri() ) . 'public/assets/js/main.js', array(), false, true );
+
+	wp_enqueue_script( 'platypuslocal-bootstrap-handler', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array(), false, true );
 
 	wp_enqueue_script( 'platypuslocal-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
