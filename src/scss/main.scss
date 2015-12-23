@@ -1,0 +1,56 @@
+//Theme Modules
+@import "modules/index";
+
+//Helpers
+@import "helpers/index";
+
+@import "layout/index";
+
+@import "pages/index";
+
+.menu-main-menu-container {
+@extend .collapse;
+@extend .navbar-collapse;
+
+  ul {
+  @extend .nav;
+  @extend .navbar-nav;
+  }
+
+}
+
+#page {
+@extend .container;
+
+  .entry-title {
+    text-align: center;
+  }
+}
+
+.content-area .entry-content{
+@extend .container
+}
+
+.site-footer .col-lg-12 {
+  text-align: center;
+}
+
+.site-description {
+  color: #fff !important;
+}
+
+.site-title {
+  line-height: 1.2em !important;
+  margin: 0px !important;
+  font-size: 1em !important;
+}
+
+.site-title a {
+  color: #337ab7 !important;
+  text-decoration: none !important;
+}
+
+.site-description {
+  line-height: 1.2em !important;
+  margin: 0px !important;
+}

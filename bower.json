@@ -1,0 +1,25 @@
+{
+  "name": "platystarter",
+  "homepage": "https://github.com/junrillg/platystarter",
+  "authors": [
+    "junrillg <junrillg@gmail.com>"
+  ],
+  "description": "Straightforward approach of building website from scratch",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "wordpress"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}

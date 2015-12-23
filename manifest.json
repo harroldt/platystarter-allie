@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "components/bootstrap-sass/assets/javascripts/bootstrap.js"
+      ],
+      "main": true
+    }
+  },
+  "paths": {
+    "source": "src/js/",
+    "dist": "public/assets/js/"
+  }
+}
